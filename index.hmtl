@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="og:site_name" content="It'sJustJosh">
+    <meta name="og:title" content="Testing">
+    <meta name="theme-color" content="#540488">
+    <meta name="og:description" content="Soon To Be Joshua Malava's Site">
+    <meta name="description" content="Welcome :3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>WmeLuna</title>
+    <style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: ;
+    background-color: #000;
+}
+</style>
+    <style>body {margin:0;}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #540488;
+}</style>
+
+
+
+</head>
+<body>
+<ul class="nav">
+  <li><a class="active" href="https://itsjustjoshdev.github.io/">Home</a></li>
+  <li><a href="https://github.com/It'sJustJosh">GitHub</a></li>
+  <li><a href="https://discord.gg/qafdmryEye">Discord</a></li>
+</ul>
+
+<!markdown>
+<div style="margin-top: 60px;margin-left: 20px;color: azure;">
+    <h1>WmeLuna</h1>
+    <p><a href="https://github.com/ItsJustJoshDev"><img src="https://github.com/ItsJustJoshDev/cdn/blob/main/Brand/crown.png?raw=true" alt="Me"></a></p>
+    <hr>
+    <h2>About me:</h2>
+    <p>I&#39;m Theme Dev For Discord
+    (He/Him)<br> This Site is Not Done....
+    <hr>
+</div>
+
+</body>
+</html>
