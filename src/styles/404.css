@@ -1,25 +1,9 @@
-body {
-	-webkit-box-pack: center; -ms-flex-pack: center;
-	background-color: var(--background-primary);
-	justify-content: center; position: relative;
-	font-weight: bold; display: -webkit-box;
-	display: -ms-flexbox; display: flex;
-	font-family: var(--font-primary);
-}
-
 .container-404 {
 	-webkit-box-align: center; -ms-flex-align: center; align-items: center; color: var(--text-primary);
 	-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
 	-ms-flex-direction: column; flex-direction: column; z-index: 1;
 	-webkit-box-orient: vertical; -webkit-box-direction: normal;
 	display: -webkit-box; display: -ms-flexbox; display: flex;
-}
-
-/* Highlight Color */
-:root * ::-moz-selection,
-:root * ::selection {
-	background: var(--accent-primary);
-	color: var(--text-primary);
 }
 
 /* Desktop */
@@ -88,8 +72,8 @@ info {
 }
 
 .content .link:hover {
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
+	-webkit-transform: scale(var(--button-hover));
+	transform: scale(var(--button-hover));
 }
 
 .content .link > ion-icon {
@@ -104,8 +88,8 @@ info {
 }
 
 .content .link-highlight:hover {
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
+	-webkit-transform: scale(var(--button-hover));
+	transform: scale(var(--button-hover));
 }
 
 .content .link-highlight > ion-icon {
@@ -133,30 +117,30 @@ info {
 }
 
 main {
-    top: calc(var(--spacing-tertiary) - 50px);
+    top: calc(var(--spacing-tertiary) - 30px);
 	font-size: calc(var(--size-sm-font) * 2);
 	padding: var(--spacing-secondary);
 	position: fixed;
 }
 
 header {
-    top: calc(var(--spacing-tertiary) - 20px);
+    top: calc(var(--spacing-tertiary) - 0px);
 	font-size: calc(var(--size-sm-font) * 2);
 	padding: var(--spacing-secondary);
 	position: fixed;
 }
 
 subheader {
-	width: 500px; text-align: center; position: fixed;
-    top: calc(var(--spacing-tertiary) + 10px);
+	width: 300px; text-align: center; position: fixed;
+    top: calc(var(--spacing-tertiary) + 40px);
 	font-size: calc(var(--size-sm-font) * 1.5);
 	padding: var(--spacing-secondary);
 
 }
 
 info {
-	width: 500px; text-align: center; position: fixed;
-    top: calc(var(--spacing-tertiary) + 70px);
+	width: 300px; text-align: center; position: fixed;
+    top: calc(var(--spacing-tertiary) + 120px);
 	font-size: calc(var(--size-sm-font) * 1.5);
 	padding: var(--spacing-secondary);
 }
@@ -186,8 +170,8 @@ info {
 
 .content .link-highlight:hover,
 .content .link:hover {
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
+	-webkit-transform: none;
+	transform: none;
 }
 
 .content .link-highlight > ion-icon,
