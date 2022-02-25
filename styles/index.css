@@ -2,36 +2,58 @@
 
 :root * {
 
-	--font-primary: 'Poppins', sans-serif;
-	--radius-primary: ;
-	--radius-secondary: ;
-	--radius-tertiary: ;
+	--border-size: 2px;
+	
 	--accent-primary: #a89632;
+
 	--background-primary: #403f3f;
 	--background-secondary: #403f3f;
 	--background-tertiary: #403f3f;
 
+	--radius-avatar: 5px;
+	--size-sm-avatar: 50px;
+	--size-med-avatar: calc(var(--size-sm-avatar) * 2);
+	--size-xl-avatar: calc(var(--size-sm-avatar) * 4);
+
+	--text-primary: #fff;
+	--font-primary: 'Poppins', sans-serif;
+	--size-sm-font: 10px;
+	--size-med-font: calc(var(--size-sm-font) * 2);
+	--size-xl-font: calc(var(--size-sm-font) * 4);
+
+	--radius-none: 0;
+	--radius-primary: 5px;
+	--radius-secondary: calc(var(--radius-primary) * 2);
+	--radius-tertiary: calc(var(--radius-primary) * 4);
+
+	--spacing-none: 0;
+	--spacing-primary: 10px;
+	--spacing-secondary: calc(var(--spacing-primary) * 2);
+	--spacing-tertiary: calc(var(--spacing-primary) * 4);
+
 }
 
+/* Base */
 * {
-  margin: 0;
-  padding: 0;
+  margin: var(--spacing-none);
+  padding: var(--spacing-none);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+/* Highlight Color */
 * ::-moz-selection {
-  background: #76c4b9;
-  color: #fff;
+  background: var(--accent-primary);
+  color: var(--text-primary);
 }
 
 * ::selection {
-  background: #76c4b9;
-  color: #fff;
+  background: var(--accent-primary);
+  color: var(--text-primary);
 }
 
 > p {
-  margin: 5px 0;
+  margin: calc(var(--spacing-primary) - 5px) var(--spacing-none);
 }
 
 > li {
@@ -50,12 +72,6 @@ body {
   position: relative;
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,47 +88,47 @@ body {
           align-items: center;
   width: 500px;
   height: calc(100vh - 20px);
-  margin: 20px 0 0 0;
-  color: #fff;
+  margin: var(--spacing-secondary) var(--spacing-none) var(--spacing-none) var(--spacing-none);
+  color: var(--text-primary);
   z-index: 2;
 }
 
 .container .profile-picture {
-  width: 104px;
-  height: 104px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-  border: 1px solid #76c4b9;
+  width: var(--size-med-avatar);
+  height: var(--size-med-avatar);
+  margin-bottom: var(--spacing-primary);
+  border-radius: var(--radius-avatar);
+  border: var(--border-size) solid var(--accent-primary);
 }
 
 .container > h2 {
-  margin: 0;
-  font-size: 18px;
+  margin: var(--spacing-none);
+  font-size: var(--size-med-font);
 }
 
 .container .subtitle {
-  font-size: 14px;
-  color: #e3e3e3;
+  font-size: calc(var(--size-sm-font) * 8px);
+  color: var(--text-primary);
 }
 
 .container .info-container {
-  background: #fff;
+  background: var(--text-primary);
   width: 100%;
   height: 100%;
-  border-radius: 50px 50px 0 0;
-  margin-top: 40px;
+  border-radius: var(--radius-tertiary) var(--radius-tertiary) var(--radius-none) var(--radius-none);
+  margin-top: var(--spacing-tertiary);
 }
 
 .container .info-container .content {
   width: 100%;
   height: 100%;
-  padding: 50px 30px 20px;
-  color: #76c4b9;
+  padding: var(--spacing-tertiary) calc(var(--spacing-secondary) + 10px) var(--spacing-secondary);
+  color: var(--accent-primary);
 }
 
 .container .info-container .content > h3 {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: calc(var(--spacing-secondary) + 5px);
 }
 
 .container .info-container .content .link {
@@ -128,13 +144,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #76c4b9;
-  border-radius: 16px;
+  border: var(--border-size) solid var(--accent-primary);
+  border-radius: var(--radius-secondary);
   text-decoration: none;
-  color: #76c4b9;
+  color: var(--accent-primary);
   cursor: pointer;
-  -webkit-box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
-          box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -145,13 +159,13 @@ body {
 }
 
 .container .info-container .content .link > ion-icon {
-  margin-right: 15px;
+  margin-right: calc(var(--spacing-primary) + 5px);
 }
 
 .container .info-container .content .link.highlight {
-  background: #76c4b9;
-  border: 1px solid #76c4b9;
-  color: #fff;
+  background: var(--accent-primary);
+  border: var(--border-size) solid var(--accent-primary);
+  color: var(--text-primary);
   font-weight: bold;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -163,6 +177,6 @@ body {
 }
 
 .container .info-container .content .link.highlight > ion-icon {
-  margin-right: 15px;
+  margin-right: calc(var(--spacing-primary) + 5px);
 }
 
