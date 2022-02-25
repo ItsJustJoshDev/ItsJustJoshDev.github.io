@@ -33,3 +33,9 @@
 	--spacing-tertiary: calc(var(--spacing-primary) * 4);
 
 }
+
+  /* Mobile */
+  @media only screen and (max-width: 784px) {body {overflow: hidden;}}
+
+  /* Desktop */
+  @media only screen and (min-width: 784px) {body {overflow-y: auto;}}
