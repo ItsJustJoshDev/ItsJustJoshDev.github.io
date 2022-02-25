@@ -30,4 +30,5 @@
 	--spacing-primary: 10px;
 	--spacing-secondary: calc(var(--spacing-primary) * 2);
 	--spacing-tertiary: calc(var(--spacing-primary) * 4);
+
 }
