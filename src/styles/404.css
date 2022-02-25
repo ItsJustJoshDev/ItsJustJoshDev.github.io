@@ -7,7 +7,7 @@
 }
 
 /* Desktop */
-@media only screen and (min-height: 657px) and (min-width: 784px) {
+@media only screen and (min-width: 784px) {
 
 .container-404 {
 	position: fixed;
@@ -99,7 +99,7 @@ info {
 }
 
 /* Mobile */
-@media only screen and (max-height: 657px) and (max-width: 784px) {
+@media only screen and (max-width: 784px) {
 
 * {
 	-webkit-box-sizing: border-box; box-sizing: border-box;
