@@ -18,8 +18,8 @@ body {
 /* Highlight Color */
 :root * ::-moz-selection,
 :root * ::selection {
-	background: var(--accent-primary) !important;
-	color: var(--text-primary) !important;
+	background: var(--accent-primary);
+	color: var(--text-primary);
 }
 
 /* Desktop */
@@ -120,14 +120,6 @@ info {
 * {
 	-webkit-box-sizing: border-box; box-sizing: border-box;
 	margin: 0; padding: 0;
-}
-
-body {
-	overflow-y: auto !important;
-}
-
-body::-webkit-scrollbar {
-	display: none;
 }
 
 .container-404 {
