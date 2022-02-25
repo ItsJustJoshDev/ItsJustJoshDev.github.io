@@ -34,8 +34,24 @@
 
 }
 
-  /* Mobile */
-  @media only screen and (max-width: 784px) {body {overflow: hidden;}}
+/* Mobile */
+@media only screen and (max-width: 784px) {
 
-  /* Desktop */
-  @media only screen and (min-width: 784px) {body {overflow-y: auto;}}
+	body {
+		overflow: hidden;
+	}
+
+	body::-webkit-scrollbar {
+		display: none;
+	}
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 784px) {
+
+	body {
+		overflow-y: auto;
+	}
+
+}
