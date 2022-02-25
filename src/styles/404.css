@@ -133,14 +133,14 @@ info {
 }
 
 main {
-    top: calc(var(--spacing-tertiary) - 40px);
-	font-size: calc(var(--size-med-font) * 4);
+    top: calc(var(--spacing-tertiary) - 50px);
+	font-size: calc(var(--size-sm-font) * 2);
 	padding: var(--spacing-secondary);
 	position: fixed;
 }
 
 header {
-    top: calc(var(--spacing-tertiary) + 60px);
+    top: calc(var(--spacing-tertiary) - 20px);
 	font-size: calc(var(--size-sm-font) * 2);
 	padding: var(--spacing-secondary);
 	position: fixed;
@@ -148,15 +148,16 @@ header {
 
 subheader {
 	width: 500px; text-align: center; position: fixed;
-    top: calc(var(--spacing-tertiary) + 100px);
+    top: calc(var(--spacing-tertiary) + 10px);
+	font-size: calc(var(--size-sm-font) * 1.5);
 	padding: var(--spacing-secondary);
-	font-size: calc(var(--size-sm-font) * 2);
+
 }
 
 info {
 	width: 500px; text-align: center; position: fixed;
-    top: calc(var(--spacing-tertiary) + 200px);
-	font-size: calc(var(--size-sm-font) * 2);
+    top: calc(var(--spacing-tertiary) + 70px);
+	font-size: calc(var(--size-sm-font) * 1.5);
 	padding: var(--spacing-secondary);
 }
 
