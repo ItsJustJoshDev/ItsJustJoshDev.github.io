@@ -1,1 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
+:root * {
+
+	--border-size: 2px;
+
+	--accent-primary: #a89632;
+
+	--background-primary: #403f3f;
+	--background-secondary: #7b7b7b;
+	--background-tertiary: #262626;
+
+	--radius-avatar: 50%;
+	--size-sm-avatar: 50px;
+	--size-med-avatar: calc(var(--size-sm-avatar) * 2);
+	--size-xl-avatar: calc(var(--size-sm-avatar) * 4);
+
+	--text-primary: #fff;
+	--font-primary: 'Poppins', sans-serif;
+	--size-sm-font: 10px;
+	--size-med-font: calc(var(--size-sm-font) * 2);
+	--size-xl-font: calc(var(--size-sm-font) * 4);
+
+	--radius-none: 0;
+	--radius-primary: 5px;
+	--radius-secondary: calc(var(--radius-primary) * 2);
+	--radius-tertiary: calc(var(--radius-primary) * 4);
+
+	--spacing-none: 0;
+	--spacing-primary: 10px;
+	--spacing-secondary: calc(var(--spacing-primary) * 2);
+	--spacing-tertiary: calc(var(--spacing-primary) * 4);
+}
+
+
+body {
+	background-color: var(--background-primary);
+	font-family: var(--font-primary);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+}
+
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 1250px;
+	height: 545px;
+	padding: var(--spacing-secondary);
+	top: var(--spacing-tertiary);
+	left: var(--spacing-tertiary);
+	right: var(--spacing-tertiary);
+	bottom: var(--spacing-tertiary);
+	color: var(--text-primary);
+	background: var(--background-tertiary);
+	border-radius: var(--radius-secondary);
+	z-index: 1;
+}
+
+.info-container {
+	position: fixed;
+	content: "";
+	background: var(--background-primary);
+	width: 400px;
+	height: 260px;
+	bottom: calc(var(--spacing-tertiary) + 10px);
+	border-radius: var(--radius-tertiary);
+	z-index: 2;
+}
+
+h1 {
+	position: fixed;
+    top: calc(var(--spacing-tertiary) + 40px);
+}
+strong {
+	position: fixed;
+    top: calc(var(--spacing-tertiary) + 120px);
+    left: calc(var(--spacing-tertiary) + 589px);
+}
+
+p {
+    position: fixed;
+    top: calc(var(--spacing-tertiary) + 180px);
+    left: calc(var(--spacing-tertiary) + 400px);
+	width: 500px;
+	text-align: center;
+}
+
+p1 {
+    position: fixed;
+    top: calc(var(--spacing-tertiary) + 150px);
+    left: calc(var(--spacing-tertiary) + 370px);
+}
+
+.content {
+	width: 89%;
+	height: 100%;
+	margin-left: var(--spacing-secondary);
+	color: var(--accent-primary);
+}
+
+.content > h3 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.content .link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 15px auto;
+	width: 100%;
+	height: 45px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: var(--border-size) solid var(--accent-primary);
+	border-radius: var(--radius-secondary);
+	text-decoration: none;
+	color: var(--accent-primary);
+	cursor: pointer;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.content .link:hover {
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+}
+
+.content .link > ion-icon {
+	margin-right: calc(var(--spacing-primary) + 5px);
+}
+
+.content .link.highlight {
+	background: var(--accent-primary);
+	border: var(--border-size) solid var(--accent-primary);
+	color: var(--text-primary);
+	font-weight: bold;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.content .link.highlight:hover {
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+}
+
+.content .link.highlight > ion-icon {
+	margin-right: calc(var(--spacing-primary) + 5px);
+}
+
+/* Highlight Color */
+* ::-moz-selection {
+	background: var(--accent-primary);
+	color: var(--text-primary);
+}
+
+* ::selection {
+	background: var(--accent-primary);
+	color: var(--text-primary);
+}
