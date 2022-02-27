@@ -14,10 +14,26 @@
   <meta property="og:locale" content="en, pt-br" />
     
   <!-- Import Tailwind's CDN  -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Import Tailwind's CSS Because Im Lazy -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          }
+        }
+      }
+    }
+  </script>
 
   <!-- Import The Custom Icons -->
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
   <!-- Open Graph / Facebook METADATA  -->
   <meta property="og:type" content="JoshWEB" />
