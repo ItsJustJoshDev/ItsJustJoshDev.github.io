@@ -1,8 +1,0 @@
-body {
-  margin: var(--spacing-none);
-  padding: var(--spacing-none);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}

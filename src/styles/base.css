@@ -36,11 +36,8 @@
 
 /* Global */
 body {
-	display: -ms-flexbox; font-family: var(--font-primary);
-	-webkit-box-pack: center; -ms-flex-pack: center;
+	font-family: var(--font-primary);
 	background-color: var(--background-primary);
-	justify-content: center; position: relative; 
-	display: -webkit-box; display: flex;
 }
 
 [class*="text-grey"] {
