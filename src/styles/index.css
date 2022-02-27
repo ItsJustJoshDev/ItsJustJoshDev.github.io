@@ -7,38 +7,3 @@ body {
   justify-content: center;
   position: relative;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: calc(100vh - 20px);
-  margin: var(--spacing-secondary) var(--spacing-none) var(--spacing-none) var(--spacing-none);
-  color: var(--text-primary);
-  z-index: 2;
-}
-
-.container .profile-picture {
-  position: fixed;
-  z-index: 3;
-  top: calc(var(--spacing-tertiary) + 220px);
-  left: var(--spacing-tertiary);
-  width: var(--size-med-avatar);
-  height: var(--size-med-avatar);
-  margin-bottom: var(--spacing-none);
-  border-radius: var(--radius-avatar);
-  border: var(--border-size) solid var(--accent-primary);
-}
-
-.container .profile-banner {
-  position: fixed;
-  width: 400px;
-  height: 300px;
-  top: var(--spacing-primary);
-  left: var(--spacing-primary);
-  border-radius: var(--radius-tertiary);
-  border: 5px solid;
-  border-color: var(--background-secondary);
-}
