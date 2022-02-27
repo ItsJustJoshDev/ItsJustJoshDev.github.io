@@ -36,12 +36,15 @@
 
 /* Global */
 body {
+	display: -ms-flexbox; font-family: var(--font-primary);
 	-webkit-box-pack: center; -ms-flex-pack: center;
 	background-color: var(--background-primary);
-	justify-content: center; position: relative;
-	font-weight: bold; display: -webkit-box;
-	display: -ms-flexbox; display: flex;
-	font-family: var(--font-primary);
+	justify-content: center; position: relative; 
+	display: -webkit-box; display: flex;
+}
+
+[class*="text-grey"] {
+  color: var(--text-primary);
 }
 
 /* Highlight Color */
