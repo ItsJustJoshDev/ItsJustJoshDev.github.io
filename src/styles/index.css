@@ -1,9 +1,12 @@
 body {
-  background-color: var(--background-primary);
   margin: var(--spacing-primary);
   padding: var(--spacing-none);
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+[class*="text-"] {
+  color: var(--text-primary);
 }
