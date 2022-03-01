@@ -34,13 +34,6 @@
 
 }
 
-/* Highlight Color */
-:root * ::-moz-selection,
-:root * ::selection {
-	background: var(--accent-primary);
-	color: var(--text-primary);
-}
-
 /* Mobile */
 @media only screen and (max-width: 784px) {
 
