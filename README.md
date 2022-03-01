@@ -46,7 +46,7 @@ This will not: `https://github.com/DiscordStyles/Slate`
 
 
 
-# Example
+### Example
 ```
-https://itsjustjoshdev.github.io/discordpreview?file=https://discordstyles.github.io/MinimalCord/MinimalCord.theme.css
+https://itsjustjoshdev.github.io/discordpreview?file=https://discordstyles.github.io/MinimalCord/MinimalCord.theme.css|https://discordstyles.github.io/RadialStatus/RadialStatus.theme.css&lightTheme=true
 ```
