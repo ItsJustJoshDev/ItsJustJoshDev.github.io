@@ -1,6 +1,6 @@
 window.DownloadApi = {
 	converter: {
-		library: _ => `https://raw.githubusercontent.com/ItsJustJoshDev/Library/main/Library/0BDFDB.plugin.js`,
+		library: arg => `https://raw.githubusercontent.com/ItsJustJoshDev/Library/main/Library/${arg}/${arg}.plugin.js`,
 		plugin: arg => `https://raw.githubusercontent.com/ItsJustJoshDev/Library/main/Plugins/${arg}/${arg}.plugin.js`,
 		theme: arg => `https://raw.githubusercontent.com/ItsJustJoshDev/Library/main/Themes/${arg}/${arg}.theme.css`,
 		url: arg => arg = arg.startsWith("https://") || arg.startsWith("http://") ? arg : `https://raw.githubusercontent.com/ItsJustJoshDev/Library/main/${arg}`
