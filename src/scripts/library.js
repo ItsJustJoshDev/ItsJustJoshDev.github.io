@@ -593,8 +593,7 @@
 			{section: "Themes", renderSection: _ => createAddonList("Themes", ".theme.css")},
 			{section: "Separator"},
 			{section: "Invites", renderSection: _ => [
-				createInvite({invite: "9YDAm3qTae", name: "Pukima Community", details: "Main Server with a Support Channel.", icon: "https://cdn.discordapp.com/icons/782245108724400128/a_b4eed6e310621438b23efd56e9b74f50.gif?size=2048"}),
-                                createInvite({invite: "qafdmryEye", name: "Badge Support", details: "Support & Request Server for Badges ", icon: "https://cdn.discordapp.com/icons/818960705255899178/9b63dc0c6967b57a7b286e82459910b4.webp?size=256"}),
+                                createInvite({invite: "qafdmryEye", name: "The King's Lounge", details: "My Personal Server & Hangout.", icon: "https://itsjustjoshdev.github.io/Library/assets/Brand/server.png"}),
 				createElement(`<div class="divider"></div>`),
 			]}
 		];
@@ -612,7 +611,7 @@
 		let parsedSection = ((window.location.search.split(`?section=`)[1] || "").split("?")[0] || "").toLowerCase();
 		renderContent(parsedSection && sections.find(data => data.section != "Title" && data.section != "Separator" && data.section.toLowerCase() == parsedSection) || sections.find(data => data.section != "Title" && data.section != "Separator"));
 
-		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">Better</div><div class="secondary">Discord</div></div>`));
+		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">The King's</div><div class="secondary">Library</div></div>`));
 
 		const changeTheme = value => {
 			for (let element of document.querySelectorAll(".theme-dark, .theme-light")) {
