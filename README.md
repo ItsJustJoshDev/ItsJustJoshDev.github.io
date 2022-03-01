@@ -18,6 +18,6 @@ Copyright (C) 2016-2021 [Mirco Wittrien](https://github.com/mwittrien) | Links [
 
 ---
 
-The [Theme Preview Page](https://itsjustjoshdev.github.io/) Was Originally Made By [Gibbu](https://github.com/Gibbu) and Has No License
+The [Theme Preview Page](https://itsjustjoshdev.github.io/discordpreview) Was Originally Made By [Gibbu](https://github.com/Gibbu) and Has No License
 
 Links [Website Repo](https://github.com/Gibbu/ThemePreview), [Website](https://gibbu.github.io/ThemePreview/)
