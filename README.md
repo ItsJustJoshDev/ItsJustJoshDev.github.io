@@ -22,7 +22,6 @@ The [Theme Preview Page](https://itsjustjoshdev.github.io/discordpreview) Was Or
 
 Links [Website Repo](https://github.com/Gibbu/ThemePreview), [Website](https://gibbu.github.io/ThemePreview/)
 
-## Theme preview for Discord themes
 #### Usage:  
 Go to [https://itsjustjoshdev.github.io/discordpreview?file=(DIRECT LINK)](https://itsjustjoshdev.github.io/discordpreview?file)  
 Paste your direct web hosted css url in place if (DIRECT LINK)
