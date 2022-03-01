@@ -16,4 +16,4 @@ The [Library Page](https://itsjustjoshdev.github.io/library) Was Originally Made
 
 ---
 
-Copyright (C) 2016-2021 [Mirco Wittrien](https://github.com/mwittrien) | Links [Website Repo](https://github.com/mwittrien/mwittrien.github.io) [Website](https://mwittrien.github.io) [BetterDiscord](https://github.com/mwittrien/BetterDiscordAddons)
+Copyright (C) 2016-2021 [Mirco Wittrien](https://github.com/mwittrien) | Links [Website Repo](https://github.com/mwittrien/mwittrien.github.io) ,[Website](https://mwittrien.github.io) ,[BetterDiscordAddons](https://github.com/mwittrien/BetterDiscordAddons)
