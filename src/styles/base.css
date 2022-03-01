@@ -34,19 +34,9 @@
 
 }
 
-/* Global */
-body {
-	font-family: var(--font-primary);
-	background-color: var(--background-primary);
-}
-
-[class*="text-grey"] {
-  color: var(--text-primary);
-}
-
 /* Highlight Color */
-:root ::-moz-selection,
-:root ::selection {
+:root * ::-moz-selection,
+:root * ::selection {
 	background: var(--accent-primary);
 	color: var(--text-primary);
 }
