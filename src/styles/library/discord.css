@@ -35,9 +35,9 @@
 	--elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
-	--blurple: #7289da;
-	--blurple-hover: #677bc4;
-	--blurple-active: #5b6eae;
+	--blurple: #cab437;
+	--blurple-hover: #8e7f28;
+	--blurple-active: #a89632;
 	--red: #f04747;
 	--red-hover: #d84040;
 	--red-active: #c03939;
@@ -102,9 +102,9 @@
 	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
-	--blurple: #7289da;
-	--blurple-hover: #677bc4;
-	--blurple-active: #5b6eae;
+	--blurple: #cab437;
+	--blurple-hover: #8e7f28;
+	--blurple-active: #a89632;
 	--red: #f04747;
 	--red-hover: #d84040;
 	--red-active: #c03939;
