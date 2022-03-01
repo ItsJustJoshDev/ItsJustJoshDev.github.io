@@ -21,3 +21,32 @@ Copyright (C) 2016-2021 [Mirco Wittrien](https://github.com/mwittrien) | Links [
 The [Theme Preview Page](https://itsjustjoshdev.github.io/discordpreview) Was Originally Made By [Gibbu](https://github.com/Gibbu) and Has No License
 
 Links [Website Repo](https://github.com/Gibbu/ThemePreview), [Website](https://gibbu.github.io/ThemePreview/)
+
+## Theme preview for Discord themes
+#### Usage:  
+Go to [https://itsjustjoshdev.github.io/discordpreview?file=(DIRECT LINK)](https://itsjustjoshdev.github.io/discordpreview?file)  
+Paste your direct web hosted css url in place if (DIRECT LINK)
+
+- - -
+
+#### Direct link example:  
+This will work: `https://discordstyles.github.io/Slate/Slate.theme.css`  
+This will not: `https://github.com/DiscordStyles/Slate`
+
+- - -
+
+#### URL Paramters:  
+| Parameter | Description | type |  
+| :---- | :---- | :---- |
+| file | Imports web hosted URL css into previewer | string \| string[] |
+| lightTheme | Sets previewer to Light Theme | boolean |
+
+`lightTheme` parameter is not required in the url if not true.  
+`file` can take multiple files by separating them with a pipe (`|`).
+
+
+
+# Example
+```
+https://itsjustjoshdev.github.io/discordpreview?file=https://discordstyles.github.io/MinimalCord/MinimalCord.theme.css
+```
