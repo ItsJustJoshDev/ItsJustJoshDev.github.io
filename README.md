@@ -2,7 +2,7 @@
 
 ### Quick Goal Make 404 Look Like this
 
-<img src="https://uv-app.wmeluna.repl.co/main/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F824921608560181261%2F958410955954458674%2Funknown.png%3Fwidth%3D703%26height%3D439" alt="Image"/>![image](https://user-images.githubusercontent.com/68560159/160669931-3d413168-738b-4b29-b2c9-4f92e0ee467f.png)
+![image](https://user-images.githubusercontent.com/68560159/160669931-3d413168-738b-4b29-b2c9-4f92e0ee467f.png)
 
 
 Quick Links
